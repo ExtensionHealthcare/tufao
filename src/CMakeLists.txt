@@ -50,15 +50,15 @@ if(ENABLE_TESTS)
 endif()
 
 # Install info
-install(TARGETS "${TUFAO_LIBRARY}"
-    DESTINATION "${libdir}"
-    COMPONENT runtime
-)
-install(DIRECTORY .
-    DESTINATION "${includedir}/Tufao"
-    COMPONENT development
-    FILES_MATCHING PATTERN *.h
-    PATTERN doc EXCLUDE
-    PATTERN priv EXCLUDE
-    PATTERN tests EXCLUDE
-)
+# install(TARGETS "${TUFAO_LIBRARY}"
+#     DESTINATION "${libdir}"
+#     COMPONENT runtime
+# )
+# install(DIRECTORY .
+#     DESTINATION "${includedir}/Tufao"
+#     COMPONENT development
+#     FILES_MATCHING PATTERN *.h
+#     PATTERN doc EXCLUDE
+#     PATTERN priv EXCLUDE
+#     PATTERN tests EXCLUDE
+# )
